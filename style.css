@@ -1,0 +1,54 @@
+
+body {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+
+
+/* BANNER STYLING */
+
+.banner {
+    display: flex;
+    position: relative;
+    width: auto;
+}
+
+.banner-picture {
+    display:block;
+    width: 100%;
+}
+
+.banner-title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 44px;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner-title-info {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Welcome Body >Below Banner on Front Page< */ 
+
+.welcome-body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 33, 32);
+}
+
